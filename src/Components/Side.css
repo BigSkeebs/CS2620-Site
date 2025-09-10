@@ -1,0 +1,6 @@
+.side {
+  flex: 0 0 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  color: black;
+}

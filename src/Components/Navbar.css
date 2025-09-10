@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: flex-start; /* default: links align left */
+  background-color: #3b3bd6;
+  width: 100%;
+}
+
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Push right-hand link to the far right */
+.navbar .right {
+  margin-left: auto;
+}
+
+/* Responsive: stack links vertically on small screens */
+@media screen and (max-width: 400px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar a {
+    width: 100%;
+  }
+}
