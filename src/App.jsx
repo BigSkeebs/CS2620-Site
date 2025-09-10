@@ -1,11 +1,12 @@
 import "./App.css";
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Side from "./components/Side";
-import MainC from "./components/MainC";
-import Footer from "./components/Footer";
+import Header from "./Components/Header";
+import Navbar from "./Components/Navbar";
+import Side from "./Components/Side";
+import MainC from "./Components/MainC";
+import Footer from "./Components/Footer";
 
 function App() {
+
   return (
     <main>
       <Header />
